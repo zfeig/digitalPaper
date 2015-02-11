@@ -1,0 +1,175 @@
+/* Download by http://www.codefans.net */
+*{margin:0;padding:0;}
+.content{
+	margin:0px auto 20px auto;
+	width:960px;
+	padding: 30px 5px 2px 25px;
+	background: url(../images/h.jpg) repeat-x 0 0;
+	/*overflow:hidden;*/
+}
+.content h1{margin-bottom: 20px;font-family: '微软雅黑';font-weight: 30px;font-size: 25px;color: #DA1C04}
+.main{margin-bottom:50px; }
+.wrap{
+	/background: transparent url(../images/banner.gif) no-repeat scroll 0% 0%; 
+	width: 100%; 
+	height: 100%;*/
+	border: 1px solid #222;
+	box-shadow: 1px 1px 5px #222;
+}
+.hideDiv{
+	position: absolute; 
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	font-size: 12px; 
+	width: 10px;
+}
+.items{
+	cursor: pointer; 
+	position: absolute; 
+	left: 0;
+	top: 0; 
+	width: 10px;
+	height: 10px;
+}
+.tips{
+	margin-left: 15px;
+}
+.tipsText{
+	padding: 8px; 
+	background-color: rgb(235, 84, 93); 
+	color: rgb(69, 7, 11); 
+	text-align: left;
+}
+.textBold{
+	font-size: 14px; 
+	font-weight: bold;
+	color:#fff;
+}
+
+.middle{
+	display: block;
+	float: left;
+	margin: 10px 1px;
+	width: 20px;
+	height: auto;
+	padding: 2px;
+	overflow: hidden;
+	
+	color: #fff;
+}
+.middle .nav{width: 20px;height: auto;background: red;width: 100%;margin: 10px 0;font-size: 12px;padding: 2px 4px;}
+.middle .nav a{text-decoration: none;color: #fff}
+.middle .nav a:hover{color: #fff}
+.mainDetais{
+	position: relative; 
+	background: none;
+	width: 519px; 
+	float:right;
+	border:0px solid #bbb;
+	
+	height:auto !important;
+	padding-bottom: 10px;
+	 
+	
+}
+.mainDetais .head{
+	/*background: #CD0708;*/
+	height: 90px;
+	padding-bottom: 25px;
+	color: #fff;
+	padding-left: 10px;
+}
+.seprator{height: 25px;background: #fff;width: 100%}
+.mainDetais .head h1{
+	font-size: 25px;
+	
+	color: #fff;
+	font-family: '微软雅黑'
+}
+.mainDetais .title{
+	padding: 10px 0;
+	font-size: 22px; 
+	font-weight: bold;
+}
+.mainDetais .center{
+	text-align: center;
+}
+.mainDetais .news{
+	font-size:12px;
+	padding:5px 2; 
+}
+.mainDetais .news .header{
+	background:#CC0607;color: #fff;text-align: center;height: 25px;line-height: 25px;font-weight: bold;
+
+}
+.mainDetais .newscontent{
+	text-align: left;
+	padding-top:10px;
+	height:auto !important;
+	height:400px;
+	max-height:400px;  
+	overflow: auto;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+.mainDetais .authors{
+	color:#999;
+}
+
+.news .bleft,.bright{display: block;}
+
+	.bleft{float: left;border: 1px solid #ccc;}
+	.bleft ul{width: 350px;overflow:auto;max-height: 250px;}
+	.bleft li{line-height: 35px;text-indent: 10px;}
+	.bleft ul li a{color: #1790C4;text-decoration: none;}
+	.bleft ul li a:hover{color: #0F83B4;text-decoration: underline;}
+
+	.bright{float: right;width: 160px;text-align: left;border: 1px solid #ccc;}
+	.bright li{text-indent:10px;line-height: 25px;font-size: 14px;font-weight: bold;}
+	.bright ul li a{color: #1790C4;text-decoration: none;margin-right:34px;margin-left:2px;}
+	.bright ul li a.cur{color: #F00539;text-decoration: none;}
+
+.loading{
+	overflow:hidden;
+	height: 398px;
+	width: 407px; 
+	background:#fff url(../images/loading.gif) center center no-repeat;
+	display:none;
+	position:relative;
+	left:0;
+	top:0;
+}
+.active{
+	border:red 2px solid;
+	background: red;
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+}
+.hover{
+	border:red 2px solid;
+	background: red;
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+}
+.footer{
+	float:right;width:400px;text-align:right;font-size:12px;margin:10px;
+}
+.foot{
+	
+	display: block;
+	clear: both;
+	width: 100%;
+	border-top: 4px solid #CC0607;
+	background: #DFDFDF;
+	font-size: 12px;
+	line-height: 30px;
+}
+.foot p{padding: 30px 25px;line-height: 30px;}
+.light{background:#fefefe}
+.dark{background: #E8E8E8}
+.tool{padding:1px;margin-top: 10px;}
+.tool .tleft a,.tool .tright a{font-size: 12px;text-decoration: none;color: #555}
+.tool .tleft{display: block;float: left;}
+.tool .tright{display: block;float: right;}

@@ -1,0 +1,8 @@
+<VirtualHost 192.168.0.189>  
+  DocumentRoot  "D:\wamp\www\yii\paper"  
+  ServerName www.paper.com  
+</VirtualHost>
+
+hosts
+
+192.168.0.189	www.paper.com
